@@ -1,4 +1,10 @@
 openapi: "3.0.0"
+x-deploy:
+  spring:
+    artifact: example-be
+    group: com.example
+  typescript-angular:
+    name: example-fe
 info:
   version: 1.0.0
   title: Swagger Petstore
