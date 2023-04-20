@@ -2,11 +2,11 @@ openapi: "3.0.0"
 x-deploy:
   spring:
     artifact: example-be
-    group: com.example
+    group: com.test
   typescript-angular:
     name: example-fe
 info:
-  version: 1.0.0
+  version: 1.0.0-SNAPSHOT
   title: Swagger Petstore
   license:
     name: MIT
