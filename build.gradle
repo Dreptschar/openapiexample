@@ -11,8 +11,7 @@ sourceCompatibility = '17'
 repositories {
 	mavenCentral()
 	maven {
-		name = "openapiexample"
-		url = uri("https://maven.pkg.github.com/dreptschar/openapiexample")
+		url = uri("https://maven.pkg.github.com/Dreptschar/openapiexample")
 		credentials {
 			username = "Dreptschar"
 			password = "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"
@@ -22,7 +21,7 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'com.example:example-be:1.0.0'
+	implementation 'com.test.example-be:1.0.0-SNAPSHOT'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
