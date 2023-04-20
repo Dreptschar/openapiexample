@@ -10,6 +10,14 @@ sourceCompatibility = '17'
 
 repositories {
 	mavenCentral()
+	maven {
+		name = "crowdcritics-product-service"
+		url = uri("https://maven.pkg.github.com/tandamo/crowdcritics-product-service")
+		credentials {
+			username = "Dreptschar"
+			password = "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"
+		}
+	}
 }
 
 dependencies {
